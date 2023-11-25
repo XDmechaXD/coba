@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman PHP Sederhana</title>
+</head>
+<body>
+
+    <header>
+        <h1>Selamat Datang di Halaman PHP Sederhana</h1>
+    </header>
+
+    <section>
+        <?php
+            // Contoh penggunaan PHP untuk menampilkan pesan
+            $pesan = "Halo, ini adalah pesan dari PHP!";
+            echo "<p>$pesan</p>";
+
+            // Contoh penggunaan PHP untuk melakukan perhitungan
+            $angka1 = 10;
+            $angka2 = 5;
+            $hasil = $angka1 + $angka2;
+            echo "<p>Hasil dari $angka1 + $angka2 adalah $hasil.</p>";
+        ?>
+    </section>
+
+    
+
+</body>
+</html>
